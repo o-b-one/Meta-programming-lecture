@@ -1,0 +1,27 @@
+{
+  "name": "lecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/descriptors/index.js",
+  "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "descriptors": "npm run build && node ./dist/descriptors",
+    "proxy": "npm run build && node ./dist/proxy",
+    "decorators": "npm run build && node ./dist/decorators",
+    "sugoi": "npm run build && node ./dist/SugoiJS"
+  },
+  "author": "Orel Balilti",
+  "license": "MIT",
+  "dependencies": {
+    "@sugoi/core": "^3.1.1",
+    "@sugoi/orm": "^3.1.1",
+    "reflect-metadata": "^0.1.12",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.9",
+    "rimraf": "^2.6.2",
+    "typescript": "^3.1.6"
+  }
+}
