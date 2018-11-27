@@ -30,12 +30,12 @@ function main(){
 
 	console.log("name: %s",g1.name);
 	console.log("type: %s",g1.type);
-	console.log("parsed: %s",JSON.stringify(g1));
+	console.log("Serialized: %s",JSON.stringify(g1));
 
-	console.log("Removing name form unreadables");
+	console.log("Removing 'name' form unreadables");
 	g1.removeUnreadable("name");
 	console.log("name:  %s",g1.name);
-	console.log("parsed: %s",JSON.stringify(g1));
+	console.log("Serialized: %s",JSON.stringify(g1));
 }
 
 main();
