@@ -1,6 +1,6 @@
 // 'use strict';
 
-class Person {
+class Language {
     constructor(name, birthdate) {
         this.name = name;
         this.birthdate = birthdate;
@@ -43,10 +43,10 @@ class Person {
 }
 
 
-const myPerson = new Person("nodejs", "2009/11/08");
-console.log("name: %s", myPerson.name);
-myPerson.name = "golang";
-console.log("new name: %s", myPerson.name);
-console.log("birthdate: %s", myPerson.birthdate);
-console.log("age: %s,", myPerson.age);
-console.log("Serialized: %s", JSON.stringify(myPerson));
+const myLanguage = new Language("nodejs", "2009/11/08");
+console.log("name: %s", myLanguage.name);
+myLanguage.name = "golang";
+console.log("new name: %s", myLanguage.name);
+console.log("birthdate: %s", myLanguage.birthdate);
+console.log("age: %s,", myLanguage.age);
+console.log("Serialized: %s", JSON.stringify(myLanguage));
