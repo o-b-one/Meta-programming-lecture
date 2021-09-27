@@ -1,8 +1,14 @@
 # Meta-programming-lecture
 
+## Lecture
+
+This project is part of the meta-programming lecture done for NodeJSIL November 2018 Meetup
+
+You can find the lecture slides on [google drive](https://docs.google.com/presentation/d/19fieTE0roK5Sr9Mn5YVZ1omH2762EhBl/edit?usp=sharing&ouid=115954504134926005047&rtpof=true&sd=true)
+
 ## Install
 
-`npm i`
+`npm ci`
 
 ## Descriptors
 
